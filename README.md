@@ -2,7 +2,9 @@ disk_usage.sh
 The disk_usage.sh script takes two possible flags and then a list of directories:
 
 disk_usage.sh
+``` bash
 usage: disk_usage.sh [-a -n N] directory...
+```
 The -a flag means that the script should list both files and directories, and the -n flag indicates that only the top N entries should be printed (if N is not specified, then it should default to 10).
 ## Run on /etc 
 ``` bash 
